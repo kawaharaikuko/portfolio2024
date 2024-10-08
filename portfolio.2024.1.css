@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+header { 
+  background-color: #8B614F;
+}
+nav{
+  text-align: center;
+  }
+  nav ul{
+  margin: 0 ;
+  padding: 0 ;
+  }
+  nav ul li{
+  list-style: none;
+  display: inline-block;
+  width: 18%;
+  min-width: 90px;
+  }
+  nav ul li a{
+  text-decoration: none;
+  color: #333;
+  }
+  nav ul li.current a{
+  color: #F33135;
+  }
+  nav ul li a:hover{
+  color: #41b0b2;
+  }
+
+
+body {
+  background-color: #E5CEC0;
+  font-family: 'Catamaran','Noto Sans JP', sans-serif;
+  line-height: 1.7;
+  color: #2c2c2c;
+}
+.resizeimage img {
+  width: 100%;
+}
+
+p.logo img {
+  width: 90px;
+  height: 90px;
+}
+p.profile img {
+    width: 300px;
+    height: 300px;
+  }
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 300px,500px;
+  }
+  article {
+margin-left: 150px; 
+  }
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 300px,300px;
+  }
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto 130px auto;
+  font-size: 0.9rem;
+  padding: 0 4%;
+}
+.site-title {
+  line-height: 1px;
+}
+.site-title a {
+  display: block;
+  border-bottom: 1px solid #2c2c2c;
+}
+.sec-title {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 65px;
+}
+.underline_black {
+  text-decoration: underline solid #000000;
+}
+.container-6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container-6 img {
+  width:32%;
+}
+@media (max-width: 768px) {
+  .container-6{
+      gap:20px 3%;
+  }
+  .container-6 img {
+      width:48.5%; 
+  }
+}
+ 
+#contact dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+#contact dt {
+  width: 15%;
+}
+#contact dd {
+  width: 85%;
+  margin-bottom: 10px;
+}
+#contact dd input,
+#contact dd textarea {
+  width: 100%;
+  border: solid 1px #c8c8c8;
+  padding: 10px;
+}
+#contact dd textarea {
+  height: 10rem;
+}
+#contact .button {
+  text-align: center;
+}
+#contact .button input {
+  width: 200px;
+  background-color: #24292e;
+  color: #fff;
+  padding: 15px 0;
+  border: solid 1px #24292e;
+}
+#contact .button input:hover {
+  background: #fff;
+  color: #24292e;
+}
+
+footer { 
+  background-color: #8B614F;
+  text-align: center;
+  margin-bottom: 20px;
+}
