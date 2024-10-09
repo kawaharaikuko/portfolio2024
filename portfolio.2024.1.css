@@ -142,4 +142,13 @@ footer {
   text-align: center;
   margin-bottom: 20px;
 }
+  
+#contact {
+    max-width: 600px;
+    margin: 0 auto;
+}
 
+#contact .button input {
+    width: 100%;
+    max-width: 200px;
+}
