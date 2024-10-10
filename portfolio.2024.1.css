@@ -231,11 +231,13 @@ footer {
 }
 /* 画像を中央揃えにするためのスタイル */
 .profile {
-    text-align: center; /* 親要素に中央揃えを適用 */
+    display: flex; /* Flexboxを使用 */
+    justify-content: center; /* 横方向の中央揃え */
+    align-items: center; /* 縦方向の中央揃え（必要であれば） */
+    margin: 20px 0; /* 上下に余白を追加 */
 }
 
 .profile img {
-    display: inline-block; /* 必要に応じて画像をインラインブロックにする */
     max-width: 100%; /* 画面サイズに応じた最大幅を指定 */
     height: auto; /* 縦横比を維持 */
 }
