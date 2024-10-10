@@ -56,7 +56,7 @@ p.logo img {
   height: 90px;
 }
 
-.article {
+article {
     margin: 0 auto; /* 左右のマージンを自動にして中央に配置 */
     max-width: 800px; /* 最大幅を設定（必要に応じて調整） */
     text-align: center; /* テキストを中央揃えにする */
@@ -73,8 +73,9 @@ p.logo img {
     margin: 0 auto; /* セクション全体を中央に配置 */
     padding: 20px 0; /* 上下にパディングを追加 */
 }
-
-.about h1 {
+.about {
+    margin-left: 20px;
+  .about h1 {
     margin: 20px 0; /* 見出しと段落の間にスペースを追加 */
     margin-left: 20px; /* 左に20pxのマージンを追加 */
 }
