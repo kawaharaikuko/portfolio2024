@@ -55,10 +55,6 @@ p.logo img {
   width: 90px;
   height: 90px;
 }
-p.profile img {
-    width: 300px;
-    height: 300px;
-  }
 
 article {
 margin-left: 150px; 
@@ -88,7 +84,8 @@ margin-left: 150px;
 .profile img {
     max-width: 100%; /* 画像のサイズを調整 */
     height: auto; /* 縦横比を維持 */
-}
+   width: 300px;
+    height: 300px;}
 
 /* article内の段落を中央揃え */
 #about article p {
