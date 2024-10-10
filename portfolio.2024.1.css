@@ -212,6 +212,7 @@ footer {
     background-color: #41b0b2; /* ホバー時の背景色 */
     color: #fff;
 }
+
 /* 画像を中央揃えにするためのスタイル */
 .profile {
     display: flex; /* Flexboxを使用 */
@@ -219,7 +220,11 @@ footer {
     align-items: center; /* 縦方向の中央揃え（必要であれば） */
     margin: 20px 0; /* 上下に余白を追加 */
 }
-
+.button-container, .button {
+    display: flex;
+    justify-content: center; /* 横方向の中央揃え */
+    align-items: center; /* 縦方向の中央揃え */
+}
 .profile img {
     max-width: 100%; /* 画面サイズに応じた最大幅を指定 */
     height: auto; /* 縦横比を維持 */
