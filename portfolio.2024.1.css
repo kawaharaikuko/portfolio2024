@@ -157,23 +157,7 @@ img {
 #contact dd textarea {
     height: 10rem;
 }
-#contact .button {
-    text-align: center;
-}
-#contact .button input {
-    width: 200px;
-    background-color: #24292e;
-    color: #fff;
-    padding: 15px 0;
-    border: solid 1px #24292e;
-}
-#contact .button input:hover {
-    background: #fff;
-    color: #24292e;
-}
-#contact .button input {
-    transition: all 0.3s ease; /* 変化が滑らかに */
-}
+
 
 @media (max-width: 768px) {
     .footer {
@@ -208,26 +192,25 @@ footer {
 footer {
     margin-top: auto; /* フッターをページの下部に配置 */
 }
-/* リンクボタンのスタイル */
-.button-container {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.work-button {
+/* ボタンの共通スタイル */
+.button-common {
     display: inline-block;
     padding: 10px 20px;
     background-color: #24292e; /* ボタンの背景色 */
-    color: #fff; /* ボタンの文字色 */
+    color: #fff; /* 文字色 */
     text-decoration: none;
     font-size: 1.2rem;
     border-radius: 5px;
+    border: none; /* submitボタンの場合、デフォルトのボーダーを無効化 */
+    cursor: pointer;
+    text-align: center;
     transition: background-color 0.3s ease; /* 背景色の変化を滑らかに */
 }
 
-.work-button:hover {
+/* ホバー時のスタイル */
+.button-common:hover {
     background-color: #41b0b2; /* ホバー時の背景色 */
-    color: #fff; /* ホバー時の文字色 */
+    color: #fff;
 }
 /* 画像を中央揃えにするためのスタイル */
 .profile {
