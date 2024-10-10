@@ -59,12 +59,6 @@ p.profile img {
     width: 300px;
     height: 300px;
   }
-  ul {
-    display: flex;
-    justify-content: space-evenly;
-    flex-basis: 300px,500px;
-  }
-/* aboutセクションの中央揃え */
 
 article {
 margin-left: 150px; 
