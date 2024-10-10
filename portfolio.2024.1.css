@@ -29,8 +29,15 @@ nav{
   nav ul li a:hover{
   color: #41b0b2;
   }
-
-
+@media (max-width: 768px) {
+  nav ul li {
+    width: 100%; /* モバイルでフル幅にする */
+    text-align: center;
+  }
+  nav ul li a {
+    font-size: 1.2rem; /* モバイルで大きめに設定 */
+  }
+}
 body {
   background-color: #E5CEC0;
   font-family: 'Catamaran','Noto Sans JP', sans-serif;
@@ -40,7 +47,10 @@ body {
 .resizeimage img {
   width: 100%;
 }
-
+.resizeimage img, p.profile img {
+  max-width: 100%;
+  height: auto; /* 画像の縦横比を保つ */
+}
 p.logo img {
   width: 90px;
   height: 90px;
@@ -138,10 +148,23 @@ margin-left: 150px;
   background: #fff;
   color: #24292e;
 }
-.footer { 
+#contact .button input {
+  transition: all 0.3s ease; /* 変化が滑らかに */
+}.footer { 
   background-color: #8B614F;
   text-align: center;
   margin-bottom: 20px;
+}
+.footer {
+  padding: 20px;
+  color: #fff;
+  font-size: 0.9rem; /* 文字サイズの調整 */
+}
+
+@media (max-width: 768px) {
+  .footer {
+    font-size: 0.8rem;
+  }
 }
 #contact dl {
     flex-direction: column;
