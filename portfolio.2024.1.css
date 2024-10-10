@@ -64,6 +64,19 @@ p.profile img {
     justify-content: space-evenly;
     flex-basis: 300px,500px;
   }
+/* aboutセクションの中央揃え */
+#about {
+    text-align: center; /* テキストを中央揃え */
+}
+
+#about h2 {
+    margin-bottom: 20px; /* 見出しと段落の間にスペースを追加 */
+}
+
+#about p {
+    margin: 0 auto; /* 段落を中央に配置 */
+    max-width: 600px; /* 段落の最大幅を設定（必要に応じて調整） */
+}
   article {
 margin-left: 150px; 
   }
