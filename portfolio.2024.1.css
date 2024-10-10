@@ -65,28 +65,7 @@ p.profile img {
     flex-basis: 300px,500px;
   }
 /* aboutセクションの中央揃え */
-#about {
-    text-align: center; /* テキストを中央揃え */
-}
 
-#about h2 {
-    margin-bottom: 20px; /* 見出しと段落の間にスペースを追加 */
-}
-
-#about p {
-    margin: 0 auto; /* 段落を中央に配置 */
-    max-width: 600px; /* 段落の最大幅を設定（必要に応じて調整） */
-}
-#about .profile {
-    display: flex; /* フレックスボックスを使用 */
-    justify-content: center; /* 中央揃え */
-    margin: 20px 0; /* 上下にスペースを追加 */
-}
-
-#about .profile img {
-    max-width: 100%; /* 画像のサイズを調整 */
-    height: auto; /* 縦横比を維持 */
-}
 article {
 margin-left: 150px; 
   }
@@ -95,7 +74,34 @@ margin-left: 150px;
     justify-content: space-evenly;
     flex-basis: 300px,300px;
   }
+/* aboutセクション全体を中央揃え */
+#about {
+    text-align: center; /* テキストを中央揃え */
+    margin: 0 auto; /* セクション全体を中央に配置 */
+    padding: 20px 0; /* 上下にパディングを追加 */
+}
 
+#about h2 {
+    margin: 20px 0; /* 見出しと段落の間にスペースを追加 */
+}
+
+.profile {
+    display: flex; /* フレックスボックスを使用 */
+    justify-content: center; /* 中央揃え */
+    margin: 20px 0; /* 上下にスペースを追加 */
+}
+
+.profile img {
+    max-width: 100%; /* 画像のサイズを調整 */
+    height: auto; /* 縦横比を維持 */
+}
+
+/* article内の段落を中央揃え */
+#about article p {
+    margin: 0 auto; /* 段落を中央に配置 */
+    max-width: 600px; /* 段落の最大幅を設定（必要に応じて調整） */
+    text-align: left; /* 左揃えに戻す場合はここを修正 */
+}
 .wrapper {
   max-width: 960px;
   margin: 0 auto 130px auto;
