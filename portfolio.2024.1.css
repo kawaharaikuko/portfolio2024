@@ -180,16 +180,7 @@ img {
 #contact .button input {
   transition: all 0.3s ease; /* 変化が滑らかに */
 }
-.footer { 
-  background-color: #8B614F;
-  text-align: center;
-  margin-bottom: 20px;
-}
-.footer {
-  padding: 20px;
-  color: #fff;
-  font-size: 0.9rem; /* 文字サイズの調整 */
-}
+
 
 @media (max-width: 768px) {
   .footer {
@@ -208,4 +199,13 @@ img {
 #contact .button input {
     width: 100%;
     max-width: 200px;
+}
+footer {
+    background-color: #8B614F; /* 背景色を指定 */
+    background-image: url('path_to_your_image.jpg'); /* 背景画像のパスを指定 */
+    background-size: cover; /* 背景画像をカバー */
+    background-position: center; /* 背景画像を中央に配置 */
+    text-align: center; /* テキストを中央揃え */
+    padding: 20px; /* パディングを追加 */
+    color: #fff; /* 文字色を白に */
 }
