@@ -71,7 +71,7 @@ margin-left: 150px;
     padding: 20px 0; /* 上下にパディングを追加 */
 }
 
-#about h1 {
+.about h1 {
     margin: 20px 0; /* 見出しと段落の間にスペースを追加 */
     margin-left: 20px; /* 左に20pxのマージンを追加 */
 }
