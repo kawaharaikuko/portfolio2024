@@ -116,12 +116,7 @@ img {
 .container-6 img {
   width:32%;
 }
-@media (max-width: 768px)  
-.container {
-    display: flex; /* フレックスボックスを使用 */
-    justify-content: center; /* 中央揃え */
-    align-items: center; /* 縦方向の中央揃え */
-}
+
 
 .container ul {
     list-style: none; /* リストマーカーを非表示にする */
