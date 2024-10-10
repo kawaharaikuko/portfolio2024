@@ -71,9 +71,7 @@ p.logo img {
     text-align: center; /* テキストを中央揃え */
     margin: 20px 0; /* 上下にマージンを追加 */
 }
-.name {
-     text-align: center; 
-    margin: 20px 0;}
+
 .profile img {
     max-width: 100%; /* 画面サイズに応じた最大幅を指定 */
     width: 300px; /* 幅を300pxに設定 */
