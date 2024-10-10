@@ -218,3 +218,6 @@ body {
 footer {
     margin-top: auto; /* フッターをページの下部に配置 */
 }
+.about {
+    text-align: center !important; /* 強制的にテキストを中央揃え */
+}
