@@ -74,9 +74,10 @@ p.logo img {
 }
 
 .profile img {
+    max-width: 100%; /* 画面サイズに応じた最大幅を指定 */
+    width: 300px; /* 幅を300pxに設定 */
     height: auto; /* 縦横比を維持 */
-　   width: 300px;
-    height: 300px;}
+}
 article p {
     margin: 0 auto; /* 段落を中央に配置 */
     max-width: 600px; /* 段落の最大幅を設定（必要に応じて調整） */
