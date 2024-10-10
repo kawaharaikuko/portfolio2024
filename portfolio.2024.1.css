@@ -56,7 +56,7 @@ p.logo img {
   height: 90px;
 }
 
-article {
+.article {
     margin: 0 auto; /* 左右のマージンを自動にして中央に配置 */
     max-width: 800px; /* 最大幅を設定（必要に応じて調整） */
     text-align: center; /* テキストを中央揃えにする */
