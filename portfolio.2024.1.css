@@ -61,16 +61,7 @@ p.logo img {
     justify-content: space-evenly;
     flex-basis: 300px,300px;
   }
-/* aboutセクション全体を中央揃え */
-#about {
-    text-align: center; /* テキストを中央揃え */
-    margin: 0 auto; /* セクション全体を中央に配置 */
-    padding: 20px 0; /* 上下にパディングを追加 */
-}
-.about {
-    text-align: center; /* テキストを中央揃え */
-    margin: 20px 0; /* 上下にマージンを追加 */
-}
+
 .profile img {
     max-width: 100%; /* 画面サイズに応じた最大幅を指定 */
     width: 300px; /* 幅を300pxに設定 */
