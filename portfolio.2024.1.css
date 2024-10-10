@@ -135,7 +135,27 @@ img {
       width:48.5%; 
   }
 }
+.container {
+    display: flex; /* フレックスボックスを使用 */
+    justify-content: center; /* 中央揃え */
+    align-items: center; /* 縦方向の中央揃え */
+}
 
+.container ul {
+    list-style: none; /* リストマーカーを非表示にする */
+    padding: 0; /* パディングをリセット */
+    margin: 0; /* マージンをリセット */
+    display: flex; /* フレックスボックスで横並び */
+}
+
+.container ul li {
+    margin: 0 10px; /* 各画像の間隔を設定 */
+}
+
+.container img {
+    max-width: 100%; /* 画像の最大幅を設定 */
+    height: auto; /* 縦横比を維持 */
+}
 
 #contact dl {
   display: flex;
