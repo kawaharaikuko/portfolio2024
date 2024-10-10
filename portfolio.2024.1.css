@@ -229,3 +229,25 @@ footer {
     max-width: 100%; /* 画面サイズに応じた最大幅を指定 */
     height: auto; /* 縦横比を維持 */
 }
+.button-container, .button {
+    text-align: center; /* 親要素でボタン全体を中央に */
+}
+
+.button-common {
+    display: inline-block; /* ボタンをインラインブロック扱い */
+    padding: 10px 20px;
+    background-color: #24292e;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.button-common:hover {
+    background-color: #41b0b2;
+    color: #fff;
+}
