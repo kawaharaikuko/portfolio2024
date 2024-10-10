@@ -94,6 +94,10 @@ margin-left: 150px;
 .underline_black {
   text-decoration: underline solid #000000;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
 .container-6 {
   display: flex;
   flex-wrap: wrap;
