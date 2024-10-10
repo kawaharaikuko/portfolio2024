@@ -100,8 +100,13 @@ margin-left: 150px;
   .container-6 img {
       width:48.5%; 
   }
-
-#contact dl {
+#contact dl dd input,
+#contact dl dd textarea {
+  width: 100%;
+  border: solid 1px #c8c8c8;
+  padding: 10px;
+}
+  #contact dl {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 20px;
