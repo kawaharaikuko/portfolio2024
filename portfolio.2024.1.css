@@ -179,7 +179,8 @@ img {
 }
 #contact .button input {
   transition: all 0.3s ease; /* 変化が滑らかに */
-}.footer { 
+}
+.footer { 
   background-color: #8B614F;
   text-align: center;
   margin-bottom: 20px;
