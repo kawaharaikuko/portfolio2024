@@ -1,72 +1,81 @@
 @charset "UTF-8";
 
 html {
-  font-size: 100%;
+    font-size: 100%;
 }
 header { 
-  background-color: #8B614F;
+    background-color: #8B614F;
 }
-nav{
-  text-align: center;
-  }
-  nav ul{
-  margin: 0 ;
-  padding: 0 ;
-  }
-  nav ul li{
-  list-style: none;
-  display: inline-block;
-  width: 18%;
-  min-width: 90px;
-  }
-  nav ul li a{
-  text-decoration: none;
-  color: #333;
-  }
-  nav ul li.current a{
-  color: #F33135;
-  }
-  nav ul li a:hover{
-  color: #41b0b2;
-  }
-@media (max-width: 768px) {
-  nav ul li {
-    width: 100%; /* モバイルでフル幅にする */
+nav {
     text-align: center;
-  }
-  nav ul li a {
-    font-size: 1.2rem; /* モバイルで大きめに設定 */
-  }
 }
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    width: 18%;
+    min-width: 90px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+nav ul li.current a {
+    color: #F33135;
+}
+nav ul li a:hover {
+    color: #41b0b2;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        width: 100%; /* モバイルでフル幅にする */
+        text-align: center;
+    }
+    nav ul li a {
+        font-size: 1.2rem; /* モバイルで大きめに設定 */
+    }
+}
+
 body {
-  background-color: #E5CEC0;
-  font-family: 'Catamaran','Noto Sans JP', sans-serif;
-  line-height: 1.7;
-  color: #2c2c2c;
+    background-color: #E5CEC0;
+    font-family: 'Catamaran', 'Noto Sans JP', sans-serif;
+    line-height: 1.7;
+    color: #2c2c2c;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* ページ全体の最小高さを指定 */
+    display: flex;
+    flex-direction: column;
 }
+
 .resizeimage img {
-  width: 100%;
+    width: 100%;
 }
 .resizeimage img, p.profile img {
-  max-width: 100%;
-  height: auto; /* 画像の縦横比を保つ */
+    max-width: 100%;
+    height: auto; /* 画像の縦横比を保つ */
 }
 p.logo img {
-  width: 90px;
-  height: 90px;
+    width: 90px;
+    height: 90px;
 }
-}
-  .container {
+
+.container {
     display: flex;
     justify-content: space-evenly;
-    flex-basis: 300px,300px;
-  }
+    flex-basis: 300px, 300px;
+}
 
 .profile img {
     max-width: 100%; /* 画面サイズに応じた最大幅を指定 */
     width: 300px; /* 幅を300pxに設定 */
     height: auto; /* 縦横比を維持 */
 }
+
 article p {
     margin: 0 auto; /* 段落を中央に配置 */
     max-width: 600px; /* 段落の最大幅を設定（必要に応じて調整） */
@@ -74,40 +83,42 @@ article p {
 }
 
 .wrapper {
-  max-width: 960px;
-  margin: 0 auto 130px auto;
-  font-size: 0.9rem;
-  padding: 0 4%;
+    max-width: 960px;
+    margin: 0 auto 130px auto;
+    font-size: 0.9rem;
+    padding: 0 4%;
 }
+
 .site-title {
-  line-height: 1px;
+    line-height: 1px;
 }
 .site-title a {
-  display: block;
-  border-bottom: 1px solid #2c2c2c;
+    display: block;
+    border-bottom: 1px solid #2c2c2c;
 }
 .sec-title {
-  font-size: 48px;
-  text-align: center;
-  margin-bottom: 65px;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 65px;
 }
 .underline_black {
-  text-decoration: underline solid #000000;
+    text-decoration: underline solid #000000;
 }
+
 img {
     max-width: 100%;
     height: auto;
 }
+
 .container-6 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .container-6 img {
-  width:32%;
+    width: 32%;
 }
-
 
 .container ul {
     list-style: none; /* リストマーカーを非表示にする */
@@ -125,55 +136,54 @@ img {
     height: auto; /* 縦横比を維持 */
 }
 
-}
 #contact dl {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 #contact dt {
-  width: 15%;
+    width: 15%;
 }
 #contact dd {
-  width: 85%;
-  margin-bottom: 10px;
+    width: 85%;
+    margin-bottom: 10px;
 }
 #contact dd input,
 #contact dd textarea {
-  width: 100%;
-  border: solid 1px #c8c8c8;
-  padding: 10px;
+    width: 100%;
+    border: solid 1px #c8c8c8;
+    padding: 10px;
 }
 #contact dd textarea {
-  height: 10rem;
+    height: 10rem;
 }
 #contact .button {
-  text-align: center;
+    text-align: center;
 }
 #contact .button input {
-  width: 200px;
-  background-color: #24292e;
-  color: #fff;
-  padding: 15px 0;
-  border: solid 1px #24292e;
+    width: 200px;
+    background-color: #24292e;
+    color: #fff;
+    padding: 15px 0;
+    border: solid 1px #24292e;
 }
 #contact .button input:hover {
-  background: #fff;
-  color: #24292e;
+    background: #fff;
+    color: #24292e;
 }
 #contact .button input {
-  transition: all 0.3s ease; /* 変化が滑らかに */
+    transition: all 0.3s ease; /* 変化が滑らかに */
 }
-
 
 @media (max-width: 768px) {
-  .footer {
-    font-size: 0.8rem;
-  }
+    .footer {
+        font-size: 0.8rem;
+    }
 }
+
 #contact dl {
     flex-direction: column;
-  }
+}
   
 #contact {
     max-width: 600px;
@@ -184,6 +194,7 @@ img {
     width: 100%;
     max-width: 200px;
 }
+
 footer {
     background-color: #8B614F; /* 背景色を指定 */
     background-image: url('path_to_your_image.jpg'); /* 背景画像のパスを指定 */
@@ -193,17 +204,7 @@ footer {
     padding: 20px; /* パディングを追加 */
     color: #fff; /* 文字色を白に */
 }
-body {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh; /* ページ全体の最小高さを指定 */
-    display: flex;
-    flex-direction: column;
-}
 
 footer {
     margin-top: auto; /* フッターをページの下部に配置 */
-}
-.about {
-    text-align: center !important; /* 強制的にテキストを中央揃え */
 }
