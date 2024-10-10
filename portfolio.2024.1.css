@@ -73,6 +73,7 @@ margin-left: 150px;
 
 #about h2 {
     margin: 20px 0; /* 見出しと段落の間にスペースを追加 */
+    margin-left: 20px; /* 左に20pxのマージンを追加 */
 }
 
 .profile {
@@ -156,9 +157,7 @@ img {
     max-width: 100%; /* 画像の最大幅を設定 */
     height: auto; /* 縦横比を維持 */
 }
-.h2 {
-    margin: 20px 0; /* 見出しと段落の間にスペースを追加 */
-    margin-left: 20px; /* 左に20pxのマージンを追加 */
+
 }
 #contact dl {
   display: flex;
