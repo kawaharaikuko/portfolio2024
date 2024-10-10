@@ -92,8 +92,7 @@ margin-left: 150px;
 #about article p {
     margin: 0 auto; /* 段落を中央に配置 */
     max-width: 600px; /* 段落の最大幅を設定（必要に応じて調整） */
-    text-align: left; /* 左揃えに戻す場合はここを修正 */
-}
+    text-align: center;
 .wrapper {
   max-width: 960px;
   margin: 0 auto 130px auto;
